@@ -11,8 +11,6 @@ st.divider()
 
 st.write('Select Task')
 task=st.selectbox('task',["Summarize Text", "Translate Text", "Explain Topic", "Generate Email", "Rewrite Content"])
-# user_input=st.text_input(" ")
-# target_language=st.selectbox('lenguage',["English","Hinglish","marathi","hindi"])
 
 
 # ── Dynamic inputs based on task ─────────────────────────

@@ -1,11 +1,6 @@
-# from langchain_openai import ChatOpenAI
-# from langchain_core.prompts import ChatPromptTemplate
+
 import streamlit as st
 
-# system_prompt=systemMessagePromptTemplate.from_template("you are a professinal AI assistent.your name is Kiara. your work is to {task} the given user input")
-# user_prompt=systemMessagePromptTemplate.from_template('{input}')
-
-# prompt= ChatPromptTemplate.from_template(build_prompt(task,user_input,other))
  
 def build_prompt(task: str, user_input: str, **kwargs) -> str:
     if task == "Summarize Text":
